@@ -7,7 +7,7 @@ set -euo pipefail
 UBUNTU_VERSION="26.04"     # Version Ubuntu LTS souhaitée (ex: 24.04, 26.04, 28.04)
 CT_ID="110"
 CT_HOSTNAME="manager"
-CT_IP="192.168.1.10/24"
+CT_IP="192.168.1.9/24"
 CT_GW="192.168.1.1"
 CT_DNS="192.168.1.1"
 CT_BRIDGE="vmbr0"
