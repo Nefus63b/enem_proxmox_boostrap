@@ -25,7 +25,7 @@ Ce dépôt fournit `bootstrap-manager.sh`, un script Bash conçu pour créer aut
 | Template Ubuntu | 26.04 |
 | ID du conteneur | `110` |
 | Nom d’hôte | `manager` |
-| Adresse IP | `192.168.1.9/24` |
+| Adresse IP | `192.168.1.4/24` |
 | Passerelle | `192.168.1.1` |
 | DNS | `192.168.1.1` |
 | Pont réseau | `vmbr0` |
