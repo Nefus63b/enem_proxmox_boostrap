@@ -129,6 +129,8 @@ pct exec "$CT_ID" -- bash -s << 'EOF'
     apt-get update
     apt-get install -y terraform
 
+    ansible-galaxy collection install ansible.posix --upgrade
+
     echo "=============================================================================="
     echo "Git:       $(git --version 2>/dev/null || echo 'non installé')"
     echo "Terraform: $(terraform --version 2>/dev/null | head -n1 || echo 'non installé')"
